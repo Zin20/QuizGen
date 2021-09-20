@@ -1,0 +1,15 @@
+{
+  "name": "quizgen",
+  "version": "1.0.0",
+  "description": "Generates Quizzes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && node app.js"
+  },
+  "author": "Adam Miller",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

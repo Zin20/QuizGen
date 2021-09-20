@@ -1,0 +1,30 @@
+[
+    {
+        "Type":"SingleAnswerMCQuestion",
+        "Content": "Where would you find the Empire State building?",
+        "Instructions" : "Select your answer by clicking an option. Then click OK.",
+        "Options" : ["New York", "Los Angeles", "San Francisco", "New Orleans"],
+        "Answers" : ["New York"],
+        "CorrectMessage" : "That's right",
+        "IncorrectMessage" : "That's not it"
+    },
+    {
+        "Type":"MultipleAnswerMCQuestion",
+        "Content": "Identify the components of a PC",
+        "Instructions" : "Select your answers by clicking an options. Then click OK.",
+        "Options" : ["Processor", "Memory", "Hard Disk", "CD-ROM Drive", "Printer"],
+        "Answers" : ["Processor", "Memory", "Hard Disk", "CD-ROM Drive"],
+        "CorrectMessage" : "That's right",
+        "IncorrectMessage" : "That's not it",
+        "PartialCorrectMessage": "You're partly right"
+    },
+    {
+        "Type":"ClickAndDragQuestion",
+        "Content": "is a character in the film 'The Martix'",
+        "Instructions" : "Select your answer by dragging an option into position. Then click OK.",
+        "Options" : ["R2D2", "Neo", "Ripley"],
+        "Answers" : ["Neo"],
+        "CorrectMessage" : "That's right",
+        "IncorrectMessage" : "That's not it"
+    }
+]
